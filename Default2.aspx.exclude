@@ -1,0 +1,34 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+  <script type="text/javascript">
+      $(document).ready(function () {
+          $("#jquery_jplayer_1").jPlayer({
+              ready: function () {
+                  $(this).jPlayer("setMedia", {
+//                      m4a: "/media/testsong.mp3",
+//                       oga: "/media/testsong.ogg"
+  m4a:"http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.mp3",
+  oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.oga"
+                  });
+              },
+              swfPath: "/js",
+              supplied: "m4a, oga"
+          });
+      });
+</script>
+<div id="jquery_jplayer_1"></div>
+<div id="jp_container_1">
+ <a href="#" class="jp-play">Play</a>
+ <a href="#" class="jp-pause">Pause</a>
+</div>
+    </form>
+</body>
+</html>

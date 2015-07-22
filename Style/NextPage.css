@@ -1,0 +1,114 @@
+﻿*
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding: 0;
+    outline: 0;
+    margin: 27px 0px 0 36px;
+    background-color:White;
+}
+body
+{
+}
+#Main
+{
+  /*  border: 1px solid black;*/
+   /* width: 960px;*/
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#header
+{
+   /* width: 960px;*/
+   margin-top:0px;
+    height: 150px;
+    background-color: Black;
+     width: 1200px;
+}
+#header #imgLogo
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    float: left;
+}
+#header h2
+{
+    color: White;
+    background-color:Black;
+    float: right;
+    margin-right: 35px;
+    margin-top: 60px;
+    height: 29px;
+}
+#Main-Contain
+{
+    margin-left: 302px;
+   /* height: 491px;*/
+    height: 800px;
+    width: 919px;
+   
+}
+
+#Main-Contain h2
+{
+    text-align: center;
+    margin-top: 30px;
+}
+#Main-Contain #imgPhonezoo53
+{
+    margin-top: 20px;
+    height: 534px;
+    width: 620px;
+}
+#Main-Contain #imgPhonezoo52
+{
+    margin-left: 50px;
+}
+#imgBvertical
+{
+    float: left;
+       margin:20px;
+       height:400px;
+}
+
+#End-Contain
+{
+    margin-top: 10px;
+   /* margin-left: 150px;*/
+    margin-right:0px;
+}
+
+#footer
+{
+    background-color: Gray;
+    height: 42px;
+    width: auto;
+   
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    margin-top: 5px;
+    float: right;
+    margin-left: 20px;
+}
+li a
+{
+    text-decoration: none;
+    color: Gray;
+}
+#Copyright
+{
+    margin-left: 20px;
+    color: Gray;
+    margin-top: 5px;
+    float: left;
+}

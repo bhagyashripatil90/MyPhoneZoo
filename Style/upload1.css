@@ -1,0 +1,152 @@
+﻿*
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding: 0;
+    outline: 0;
+    margin: 0 0 0 0px;
+}
+body
+{
+   
+}
+
+#Main
+{
+  border: 1px solid black;
+  width: 960px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:skyblue;  
+  background-size:100%;
+  border-bottom-color:Black;
+   
+}
+
+#header
+{
+    width: 960px;
+    height: 155px;
+    background-color: Black;
+}
+#header #imgLogo
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    float: left;
+}
+#header h2
+{
+    color: White;
+    float: right;
+    margin-right:20px;
+    margin-top: 60px;
+    height: 44px;
+}
+#Main-Content
+{
+    margin-right:10px;
+    height: 1350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 919px;
+}
+#text
+{
+    
+ }
+
+#Main-Content #imgSqurd
+{
+    float: right;
+    margin-right:7px;
+       
+}
+
+.imgSmrtPhn
+{
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    padding-left: 0px;
+    height: 119px;
+}
+.imgSmrtPhn1
+{
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    padding-left: 0px;
+    height: 120px;
+}
+
+#imgBvertical
+{
+    float: left;
+       margin:20px;
+          
+}
+#End-Contain
+{
+    margin-top:210px;
+  /* margin-left: 3px;   */
+     background-color:white; 
+     
+}
+
+
+
+
+#End-Contain a
+{
+    font-size: larger;
+    margin-top: 30px;
+    margin-right:20px;
+   
+    float:right;
+}
+#footer-termofuse
+{
+     background-color: Gray;
+    height: 41px;
+    width: auto;
+    }
+  
+ul
+{
+    list-style: none;
+}
+li
+{
+    margin-top: 7px;
+    float: right;
+    margin-left: 40px;
+    margin-right:20px;
+    width: 90px;
+    height: 44px;
+}
+li a
+{
+    text-decoration: none;
+    color: White;
+}
+#Copyright-termofuse
+{
+    margin-left: 20px;
+    color: White;
+    margin-top: 7px;
+    float: left;
+    width: 215px;
+    height: 34px;
+}
+
+#imgHrzntl
+{
+       margin-left:80px;
+       margin-top:10px;
+       margin-bottom:10px;
+}
